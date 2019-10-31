@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Roboto" , sans-serif;
+    color: #757575;
+}
+ul {
+    list-style-type: none
+}
+
+.fa{
+    color:#009688
+}
+
+.cv-main {
+    padding: 15%;
+}
+
+.cv-main > section {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0  rgba(0,0,0,0.19);
+    margin-bottom: 20%
+}
+
+#me > section:not(first-child) {
+    padding: 0 18px 18px
+}
+
+.me-picture img {
+    width: 100%
+}
+
+.cv-main {
+    display: flex;
+}
+
+#me{
+    width: 30%
+}
+#work-esperience {
+    width: 70%
+}
